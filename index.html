@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="index.css">
+    <title>Web components examples</title>
+</head>
+<body>
+    <main class="main-container">
+        <header>
+            <nav>
+                <ul class="list-iframe-buttons">
+                    <li><button id="button-form" class="frame-button active" name="form">Formulario</button></li>
+                    <li><button id="button-cards" class="frame-button pasive" name="cards">Cards</button></li>
+                    <li><button id="button-header" class="frame-button pasive" name="header">Header</button></li>
+                    <li><button id="button-footer" class="frame-button pasive" name="footer">Footer</button></li>
+                    <li><button id="button-buttons"class="frame-button pasive" name="buttons">Buttons</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <iframe 
+            id="iframe-container"
+            class="iframe-contain" 
+            src="/components/form/form.html" 
+            frameborder="0"></iframe>
+        </div>
+    </main>
+<script src="index.js"></script>
+</body>
+</html>
